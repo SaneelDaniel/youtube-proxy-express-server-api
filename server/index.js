@@ -14,7 +14,7 @@ const search = "REST API";
 
 app.get("/videos", (req, res) => {
   const url = `https://www.googleapis.com/youtube/v3/search?type=video&part=snippet&maxResults=50&q=${search}`;
-  fetch(`${url}&key=${process.env.GOOGLE_YOUTUBE_API_KEY}`)
+  fetch(`${url}&key=AIzaSyAnGjpYri0Pvqn50NGLgbF8u1soUCpa_8c`)
     .then((response) => response.json())
     .then((json) => {
       res.json(json.items);
