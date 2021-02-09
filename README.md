@@ -4,7 +4,26 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+###### SERVER SIDE SCRIPTS ######
+
+Go inside the server directory and run:
+
+### `node index.js`
+
+This will start the server on port 5000.\
+You can also check the logs and requests on the console.\
+
+###### SERVER SIDE SCRIPT ENDS ######
+
+###### CLIENT SIDE ######
+
 In the project directory, you can run:
+
+### `yarn install`
+
+Installs all the project dependencies and build for development environment.\
+
+You will also see any lint errors in the console.\
 
 ### `yarn start`
 
